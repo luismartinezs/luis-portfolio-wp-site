@@ -2,9 +2,9 @@ app/public/local.php
 
 # After your first big deploy and all of your files are already
 # on your web host you could uncomment the following items
-app/public/wp-content/uploads/
-app/public/wp-admin
-app/public/wp-includes
+# app/public/wp-content/uploads/
+# app/public/wp-admin
+# app/public/wp-includes
 
 # You could also list the indidivual WordPress system files that
 # live in the root of our folder, for example, here are just a few
@@ -52,4 +52,3 @@ nbproject
 .komodotools
 _notes
 dwsync.xml
-logs/
