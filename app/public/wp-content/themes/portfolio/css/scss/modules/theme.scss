@@ -1,0 +1,55 @@
+// COLORS
+$primary: #ff3366;
+$primary-light: #ff4e7a;
+$primary-strong: #b30b35;
+$primary-dark: #291c20;
+$secondary: #49629b;
+$secondary-light: #7a89ab;
+$secondary-strong: #49629b;
+$secondary-dark: #20232c;
+$secondary-darker: #191c23;
+$black: #222;
+$muted: #555;
+$light: #bbb;
+$lighter: #ebeced;
+
+$theme-colors: (primary: $primary,
+  primary-light: $primary-light,
+  primary-strong: $primary-strong,
+  black: $black,
+  muted: $muted,
+  light: $light);
+
+// HEADER
+$header-bg: $secondary-dark;
+$header-color: $black;
+
+// BODY
+$body-bg: $lighter;
+$body-color: $black;
+$body-text-align: null;
+
+// BUTTONS
+$primary-text: $white;
+
+// TYPOGRAPHY
+$font-family-sans-serif: Montserrat, Arial, Helvetica, sans-serif;
+$font-family-monospace: SFMono-Regular,
+Menlo,
+Monaco,
+Consolas,
+"Liberation Mono",
+"Courier New",
+monospace;
+$font-family-base: "Source Sans Pro", Arial, Helvetica, sans-serif;
+
+$font-heading: $font-family-sans-serif;
+$font-base: $font-family-base;
+
+::selection {
+  background: $primary-light; /* WebKit/Blink Browsers */
+  color: $white;
+}
+::-moz-selection {
+  background: $primary-light; /* Gecko Browsers */
+}

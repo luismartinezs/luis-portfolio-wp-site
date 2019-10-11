@@ -1,0 +1,25 @@
+.small-screen {
+  @media (min-width: 576px) {
+    display: none;
+  }
+}
+
+.medium-screen {
+  display: none;
+  @media (min-width: 768px) {
+    display: initial;
+  }
+}
+
+.large-screen {
+  display: none;
+  @media (min-width: 992px) {
+    display: initial;
+  }
+}
+
+.smaller-than-large-screen {
+  @media (min-width: 992px) {
+    display: none;
+  }
+}
