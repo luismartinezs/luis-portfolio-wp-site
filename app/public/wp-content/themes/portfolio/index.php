@@ -16,3 +16,12 @@
 
 get_header();
 ?>
+
+<div class="container">HELLO WORLD</div>
+
+
+<?php
+
+get_footer();
+
+?>
